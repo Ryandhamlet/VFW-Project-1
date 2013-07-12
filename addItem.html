@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<!--Ryan Hamlet -->
+<!--VFW 1307 -->
+<!--VFW Project 1 -->
+<html>
+    
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<meta name="keywords" content="buy,sell,trade,bidding" />
+		<meta name="description" content="This is an application that allows you to buy, sell or trade items online in your 		local area."/>
+		<meta name="viewport" content="user-scalable=no, width=device-width" />
+		<meta name="HandheldFriendly" content="true" />
+		<meta name="MobileOptimized" content="320" />
+		<title> Thrift Shop </title>
+        
+    <body>
+    	 <h1>Item Application</h1>
+    	 	<form> 
+            	<fieldset>
+                	<legend>Item Information</legend>
+                		<ul>
+	                		<li><label for="Title">Title:</label><input type="text" id="Title" /></li>
+	                		<li><label for="Price"> Price :</label><input type="text" id="Price" /></li>
+	                		<li><label for="Category"> Category:</label>
+	                			<select id="Search Category">
+	                            	<optgroup label="Categories">
+		                            	<option value="All">All</option>
+		                            	<option value="Auto">Auto</option>
+		                            	<option value="Electronics">Electronics</option>
+		                            	<option value="Clothes">Clothes</option>
+		                            	<option value="Jewerly">Jewerly</option>
+		                            	<option value="Furniture">Furniture</option>
+		                            	<option value="Pets">Pets</option>
+		                            	<option value="Household">Household</option>
+		                            	<option value="Collectables">Collectables</option>
+		                            	<option value="Books">Books</option>
+		                            </optgroup>
+		                        </select>
+		                      </li>
+		                      <li><label for="Item Condition">Item Condition:</label></li>
+		                      		<input type="radio"  value="New" id="New"/><label for="New">New</label>
+		                      		<input type="radio" value="Used" id="Used"/><label for="Used">Used</label>
+		                      <li><label for="Scale">Condition Scale:</label><br /><input type="range" name="Scale" min="1" max ="10" /></li> 
+		                      <li><label for="Description">Description:</label></li>
+                          				<textarea name="textarea" rows="10" cols="50">Write something here...</textarea></li>
+		                        <li><label for="SellDate">Sell by date:</label><input type="date" id="sellDate" /></li>
+		                      	<li><label for="RepostOption">Repost Option:</label><input type="checkbox" checked value="RepostOption" id="RepostOption" /></li>
+		                      	
+		                      	<li><label for="Email">Seller Email:</label><input type="Email" placeholder="www.userEmail@email.com" /></li>
+		                      	<li><input type="hidden" value"true" /></li>               
+		                </ul>
+				
+		                    	<ul>
+			                    	<input type="button" id="postButton" value="Submit" onclick="location.href='#'" />
+			                    </ul>
+		          </fieldset>
+		          		<input type="Enter" value="Search" />
+		          	</form>
+		          		<ul>
+			          		<li><a href="#">Show Data</a></li>
+			          		<li><a href="#">Clear Data</a></li>
+			            </ul>
+		<body link="green" vlink="green">
+        </body>
+</html>
